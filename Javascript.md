@@ -134,3 +134,33 @@ user.name = "John Snow";
 // if you use 'use strict' this line will also throw the exceptio.
 // Remember this won't work for the child json data you need to freeze that too.
 ```
+
+## 6) How to check time consumed by the code.
+#### Before
+```javascript
+const before = new Date();
+for(let i = 0; i < 10000000000; i++){
+    
+}
+const after = new Date();
+console.log(after-before, "ms");
+```
+Output:-
+```bash
+9660 ms
+```
+
+#### When you know timer.
+```javascript
+console.time("note");
+for(let i = 0; i < 10000000000; i++){
+    
+}
+console.timeEnd("note");
+// Here 'note' is the label for timer
+```
+Output:-
+```bash
+note: 9660.250732421875 ms
+```
+
