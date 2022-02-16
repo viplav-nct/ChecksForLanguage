@@ -164,3 +164,29 @@ Output:-
 note: 9660.250732421875 ms
 ```
 
+## 7) Console Table
+Printing table in console.
+#### Before
+```javascript
+const uesrs = [
+    { name : "Sally"},
+    { name : "Kevin"},
+    { name : "Robin"}
+];
+console.log(users);
+```
+Output:-
+![Output Screenshot](https://github.com/viplav-nct/ChecksForLanguage/blob/main/JavascriptFiles/8f736dd8-b082-4639-a269-4c5cf400b5f7.JPG)
+
+#### When you know console.table
+```javascript
+const users = [
+    { name : "Sally"},
+    { name : "Kevin"},
+    { name : "Robin"}
+];
+console.table(users);
+```
+Output:-
+![Output Screenshot](https://github.com/viplav-nct/ChecksForLanguage/blob/main/JavascriptFiles/c992f9ce-903c-48ef-b0c3-008e966432e4.JPG)
+
