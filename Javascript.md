@@ -190,3 +190,25 @@ console.table(users);
 Output:-
 ![Output Screenshot](https://github.com/viplav-nct/ChecksForLanguage/blob/main/JavascriptFiles/c992f9ce-903c-48ef-b0c3-008e966432e4.JPG)
 
+## 8) Console Assert
+Passing if statement in the Console
+#### Before
+```javascript
+const x = 5;
+if(x !== 1){
+    console.error("X is not 1.");
+}
+```
+Output:-
+```bash
+X is not 1.
+```
+#### When you know console.assert.
+```javascript
+const x = 5;
+console.assert(x === 1, "X is not 1.");
+```
+Output:-
+```bash
+Assertion failed: X is not 1.
+```
