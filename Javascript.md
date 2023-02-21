@@ -212,3 +212,28 @@ Output:-
 ```bash
 Assertion failed: X is not 1.
 ```
+
+## 9) Array Values
+Getting Array values using indexes.
+#### Before
+```javascript
+const data = ["Rock", "John", "Michael"];
+const first = data[0];
+const last = data[data.length -1 ];
+console.log(first, last);
+```
+Output:-
+```bash
+Rock Michael
+```
+#### When you know Array at.
+```javascript
+const data = ["Rock", "John", "Michael"];
+const first = data.at(0);
+const last = data.at(-1);
+console.log(first, last);
+```
+Output:-
+```bash
+Rock Michael
+```
